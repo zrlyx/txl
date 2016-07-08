@@ -15,6 +15,16 @@
 		4441CF951D2F405600D13A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4441CF931D2F405600D13A5B /* LaunchScreen.storyboard */; };
 		4441CFA01D2F405600D13A5B /* txlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4441CF9F1D2F405600D13A5B /* txlTests.swift */; };
 		4441CFAB1D2F405600D13A5B /* txlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4441CFAA1D2F405600D13A5B /* txlUITests.swift */; };
+		4441CFB91D2F414300D13A5B /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4441CFB81D2F414300D13A5B /* File2.swift */; };
+		4441CFBB1D2F44FD00D13A5B /* File3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4441CFBA1D2F44FD00D13A5B /* File3.swift */; };
+		4441CFBD1D2F460200D13A5B /* File4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4441CFBC1D2F460200D13A5B /* File4.swift */; };
+		4441CFBF1D2F47D400D13A5B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4441CFBE1D2F47D400D13A5B /* libsqlite3.0.tbd */; };
+		4441CFC21D2F485100D13A5B /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 4441CFC11D2F485100D13A5B /* data.db */; };
+		4441CFC81D2F485500D13A5B /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 4441CFC41D2F485500D13A5B /* data.db */; };
+		4441CFC91D2F485500D13A5B /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4441CFC51D2F485500D13A5B /* SQLiteDB.swift */; };
+		4441CFCA1D2F485500D13A5B /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4441CFC61D2F485500D13A5B /* SQLTable.swift */; };
+		4441CFCB1D2F485500D13A5B /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4441CFC71D2F485500D13A5B /* String-Extras.swift */; };
+		4441CFCD1D2F48CE00D13A5B /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4441CFCC1D2F48CE00D13A5B /* a.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,17 @@
 		4441CFA61D2F405600D13A5B /* txlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = txlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4441CFAA1D2F405600D13A5B /* txlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = txlUITests.swift; sourceTree = "<group>"; };
 		4441CFAC1D2F405600D13A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4441CFB81D2F414300D13A5B /* File2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
+		4441CFBA1D2F44FD00D13A5B /* File3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File3.swift; sourceTree = "<group>"; };
+		4441CFBC1D2F460200D13A5B /* File4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File4.swift; sourceTree = "<group>"; };
+		4441CFBE1D2F47D400D13A5B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4441CFC01D2F47DC00D13A5B /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		4441CFC11D2F485100D13A5B /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
+		4441CFC41D2F485500D13A5B /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
+		4441CFC51D2F485500D13A5B /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		4441CFC61D2F485500D13A5B /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		4441CFC71D2F485500D13A5B /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
+		4441CFCC1D2F48CE00D13A5B /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4441CFBF1D2F47D400D13A5B /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +101,10 @@
 		4441CF7B1D2F405600D13A5B = {
 			isa = PBXGroup;
 			children = (
+				4441CFBE1D2F47D400D13A5B /* libsqlite3.0.tbd */,
+				4441CFC11D2F485100D13A5B /* data.db */,
+				4441CFCC1D2F48CE00D13A5B /* a.jpg */,
+				4441CFC31D2F485500D13A5B /* SQLiteDB */,
 				4441CF861D2F405600D13A5B /* txl */,
 				4441CF9E1D2F405600D13A5B /* txlTests */,
 				4441CFA91D2F405600D13A5B /* txlUITests */,
@@ -106,6 +132,10 @@
 				4441CF931D2F405600D13A5B /* LaunchScreen.storyboard */,
 				4441CF961D2F405600D13A5B /* Info.plist */,
 				4441CF8E1D2F405600D13A5B /* txl.xcdatamodeld */,
+				4441CFB81D2F414300D13A5B /* File2.swift */,
+				4441CFBA1D2F44FD00D13A5B /* File3.swift */,
+				4441CFBC1D2F460200D13A5B /* File4.swift */,
+				4441CFC01D2F47DC00D13A5B /* Header.h */,
 			);
 			path = txl;
 			sourceTree = "<group>";
@@ -126,6 +156,17 @@
 				4441CFAC1D2F405600D13A5B /* Info.plist */,
 			);
 			path = txlUITests;
+			sourceTree = "<group>";
+		};
+		4441CFC31D2F485500D13A5B /* SQLiteDB */ = {
+			isa = PBXGroup;
+			children = (
+				4441CFC41D2F485500D13A5B /* data.db */,
+				4441CFC51D2F485500D13A5B /* SQLiteDB.swift */,
+				4441CFC61D2F485500D13A5B /* SQLTable.swift */,
+				4441CFC71D2F485500D13A5B /* String-Extras.swift */,
+			);
+			path = SQLiteDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4441CF951D2F405600D13A5B /* LaunchScreen.storyboard in Resources */,
+				4441CFC21D2F485100D13A5B /* data.db in Resources */,
+				4441CFC81D2F485500D13A5B /* data.db in Resources */,
+				4441CFCD1D2F48CE00D13A5B /* a.jpg in Resources */,
 				4441CF921D2F405600D13A5B /* Assets.xcassets in Resources */,
 				4441CF8D1D2F405600D13A5B /* Main.storyboard in Resources */,
 			);
@@ -259,9 +303,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4441CFBB1D2F44FD00D13A5B /* File3.swift in Sources */,
+				4441CFCA1D2F485500D13A5B /* SQLTable.swift in Sources */,
+				4441CFB91D2F414300D13A5B /* File2.swift in Sources */,
 				4441CF8A1D2F405600D13A5B /* ViewController.swift in Sources */,
+				4441CFCB1D2F485500D13A5B /* String-Extras.swift in Sources */,
 				4441CF881D2F405600D13A5B /* AppDelegate.swift in Sources */,
+				4441CFBD1D2F460200D13A5B /* File4.swift in Sources */,
 				4441CF901D2F405600D13A5B /* txl.xcdatamodeld in Sources */,
+				4441CFC91D2F485500D13A5B /* SQLiteDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.Swiftv.cn.txl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/20141105042hyb/Desktop/txl/txl/Header.h;
 			};
 			name = Debug;
 		};
@@ -420,6 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.Swiftv.cn.txl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/20141105042hyb/Desktop/txl/txl/Header.h;
 			};
 			name = Release;
 		};
@@ -488,6 +540,7 @@
 				4441CFB11D2F405600D13A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4441CFB21D2F405600D13A5B /* Build configuration list for PBXNativeTarget "txlTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +549,7 @@
 				4441CFB41D2F405600D13A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4441CFB51D2F405600D13A5B /* Build configuration list for PBXNativeTarget "txlUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +558,7 @@
 				4441CFB71D2F405600D13A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
